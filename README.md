@@ -16,9 +16,14 @@ Visit my [protfolio website here](https://quadrilateral0.github.io/ACD-Portfolio
 ## Credits
 A thanks to my resources:
 - [Functional Accessibility Evaluator 2.2](https://fae.disability.illinois.edu/anonymous/?Anonymous%20Report=/)
+- [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 - [Pixabay](https://pixabay.com/)
+- [Google Fonts - Advent Pro](https://fonts.google.com/specimen/Advent+Pro)
 - [GoFullPage - Full Page Screen Capture Chrome Extension](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related)
 - [Visual Studio Code](https://code.visualstudio.com/download)
+
+And thanks to these tutorials:
+- [Pagecloud - How to add custom fonts](https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website)
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [W3 Schools](https://www.w3schools.com/)
 

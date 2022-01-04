@@ -1,11 +1,33 @@
 body {
-    background-color: black;
+    background-color: rgb(20, 12, 11);
 }
 
-.headerbackground {
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    padding: 25px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     background-image: url("../images/stock-photo-mountains.png");
     min-height: 600px;
     width: 100%;
     background-size: cover;
     background-position: center;
+    color: rgb(20, 12, 11);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
 }

@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'advent_proregular';
+    font-family: "advent_proregular";
     src: url('C:/Users/amand/OneDrive/Desktop/Coding/ACD-Portfolio/assets/css/fonts/adventpro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -80,43 +80,70 @@ footer {
     color: var(--moon)
 }
 
-.flexbox {
+.sectionbox {
+    padding: 10px 100px;
+}
+
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 5px;
-  }
-  
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 5px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
+.row img {
+    height: 200px;
+    width: auto;
+    padding: 5px 5px;
   }
 
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
+.imagehover:hover {
+    border: whitesmoke solid 3px;
+    padding: 5px;
+    background-color: black;
+}
+
+.container1 {
+    position: relative;
+    float: left;
   }
+
+.container2 {
+    position: relative;
+    display: inline-block;
+  }
+
+#text-block1 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--coal);
+    color: white;
+    opacity: .8;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'advent_proregular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 60px;
+}
+
+.text-block2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--coal);
+    color: white;
+    opacity: .8;
+    text-align: center;
+    font-family: 'advent_proregular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+#mostrecent {
+    position: relative;
+    width: auto;
+    height: 600px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
 
 .footer nav {
     padding-top: 15px;

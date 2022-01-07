@@ -24,6 +24,7 @@ A thanks to my resources:
 
 And thanks to these tutorials:
 - [Pagecloud - How to add custom fonts](https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website)
+- [CSS Positioning and Flexbox Explained](https://www.freecodecamp.org/news/css-positioning-and-flexbox-explained/)
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [W3 Schools](https://www.w3schools.com/)
 

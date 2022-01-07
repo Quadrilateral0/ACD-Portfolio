@@ -81,7 +81,7 @@ footer {
 }
 
 .sectionbox {
-    padding: 10px 100px;
+    padding: 20px 200px;
 }
 
 .row {
@@ -92,7 +92,7 @@ footer {
 
 .row img {
     height: 200px;
-    width: auto;
+    width: 300px;
     padding: 5px 5px;
   }
 
@@ -140,7 +140,7 @@ footer {
 #mostrecent {
     position: relative;
     width: auto;
-    height: 600px;
+    height: 605px;
     padding-right: 5px;
     padding-bottom: 5px;
 }

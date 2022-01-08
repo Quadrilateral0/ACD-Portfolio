@@ -1,6 +1,6 @@
 # ACD Portfolio
 ## Description
-For this project, I was tasked with . These tasks included .
+For this project, I created a portfolio page to share my deployed applications and function as a digital resume. This project is a work-in-progress and will be updated as my skills grow. This application demonstrates my skills with semantic html, flexbox, media queries, CSS variables, and responsive web design. 
 
 ## Table of Contents
 - [Usage](#usage)
@@ -31,7 +31,7 @@ And thanks to these tutorials:
 - [W3 Schools](https://www.w3schools.com/)
 
 ## License
+![MIT License](https://img.shields.io/badge/license-MIT-green)
 
 ## Badges
-![MIT License](https://img.shields.io/github/license/Quadrilateral0/AccessibilityRefactor?style=plastic)
-![CSS Validated](https://jigsaw.w3.org/css-validator/images/vcss-blue)
+![W3C Validated](https://img.shields.io/badge/w3c-validated-green)

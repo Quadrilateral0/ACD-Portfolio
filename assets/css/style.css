@@ -11,14 +11,14 @@
 
 @font-face {
     font-family: "advent_probold";
-    src: url('assets/css/fonts/adventpro-bold-webfont.woff') format('woff');
+    src: url('https://github.com/Quadrilateral0/ACD-Portfolio/blob/main/assets/css/fonts/adventpro-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "advent_proregular";
-    src: url('assets/css/fonts/adventpro-regular-webfont.woff') format('woff');
+    src: url('https://github.com/Quadrilateral0/ACD-Portfolio/blob/main/assets/css/fonts/adventpro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

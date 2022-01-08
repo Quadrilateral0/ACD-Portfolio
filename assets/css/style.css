@@ -11,14 +11,14 @@
 
 @font-face {
     font-family: "advent_probold";
-    src: url('C:/Users/amand/OneDrive/Desktop/Coding/ACD-Portfolio/assets/css/fonts/adventpro-bold-webfont.woff') format('woff');
+    src: url('assets/css/fonts/adventpro-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "advent_proregular";
-    src: url('C:/Users/amand/OneDrive/Desktop/Coding/ACD-Portfolio/assets/css/fonts/adventpro-regular-webfont.woff') format('woff');
+    src: url('assets/css/fonts/adventpro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

@@ -9,9 +9,9 @@ For this project, I was tasked with . These tasks included .
 - [Badges](#badges)
 
 ## Usage
-Visit my [protfolio website here](https://quadrilateral0.github.io/ACD-Portfolio/) and see below for a current screenshot.
+Visit my [portfolio website here](https://quadrilateral0.github.io/ACD-Portfolio/) and see below for a current screenshot.
 
-![Screenshot of Completed Website](/assets/images/screenshot-for-readme.png)
+![Screenshot of Completed Website](assets\images\screenshot-portfolio.png)
 
 ## Credits
 A thanks to my resources:

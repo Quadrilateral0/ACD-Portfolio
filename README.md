@@ -21,6 +21,7 @@ A thanks to my resources:
 - [Google Fonts - Advent Pro](https://fonts.google.com/specimen/Advent+Pro)
 - [Bacon Ipsum - A Meatier Lorum Ipsum Generator](https://baconipsum.com/)
 - [GoFullPage - Full Page Screen Capture Chrome Extension](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related)
+- [Free Avatar Maker](https://avatarmaker.com/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 And thanks to these tutorials:

@@ -11,7 +11,7 @@ For this project, I created a portfolio page to share my deployed applications a
 ## Usage
 Visit my [portfolio website here](https://quadrilateral0.github.io/ACD-Portfolio/) and see below for a current screenshot.
 
-![Screenshot of Completed Website](assets\images\screenshot-portfolio.png)
+![Screenshot of Completed Website](assets/images/screenshot-portfolio.png)
 
 ## Credits
 A thanks to my resources:

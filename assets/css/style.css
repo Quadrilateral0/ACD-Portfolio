@@ -9,20 +9,6 @@
     scroll-behavior: smooth;
   }
 
-@font-face {
-    font-family: "advent_probold";
-    src: url('ACD-Portfolio/assets/css/fonts/adventpro-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "advent_proregular";
-    src: url('ACD-Portfolio/assets/css/fonts/adventpro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     background-color: var(--coal);
 }
@@ -33,7 +19,7 @@ a {
 }
 
 h2 {
-    font-family: 'advent_proregular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Advent Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 20px;
     font-size: 40px;
     color: var(--peach);
@@ -75,7 +61,7 @@ footer {
 
 .header {
     padding: 25px;
-    font-family: 'advent_probold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Advent Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url("../images/stock-photo-mountains.png");
     min-height: 600px;
     width: 100%;

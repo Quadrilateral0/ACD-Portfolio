@@ -11,14 +11,14 @@
 
 @font-face {
     font-family: "advent_probold";
-    src: url('css/fonts/adventpro-bold-webfont.woff') format('woff');
+    src: url('ACD-Portfolio/assets/css/fonts/adventpro-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "advent_proregular";
-    src: url('css/fonts/adventpro-regular-webfont.woff') format('woff');
+    src: url('ACD-Portfolio/assets/css/fonts/adventpro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -184,7 +184,7 @@ footer {
 
 #mostrecent {
     position: relative;
-    width: auto;
+    width: 500px;
     height: 605px;
     padding-right: 5px;
     padding-bottom: 5px;
@@ -221,6 +221,24 @@ footer {
     #contactcontainer {
       flex-direction: column;
     }
+}
+
+#icons {
+    display: inline-block;
+    padding-left: 70px;
+}
+
+#icons img {
+    width: 80px;
+    height: auto;
+    padding: 5px;
+}
+
+#icon-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .footer nav {

@@ -15,6 +15,7 @@ Visit my [portfolio website here](https://quadrilateral0.github.io/ACD-Portfolio
 
 ## Credits
 A thanks to my resources:
+- [EmailJS](https://www.emailjs.com/)
 - [Functional Accessibility Evaluator 2.2](https://fae.disability.illinois.edu/anonymous/?Anonymous%20Report=/)
 - [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator)
 - [Pixabay](https://pixabay.com/)

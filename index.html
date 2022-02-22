@@ -10,6 +10,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+        emailjs.init("user_5odXzqUe1RJHV4aWLAjpO");
+    })();
+  </script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
 
 <body>
@@ -31,7 +38,7 @@
         <section id="about" class="sectionbox">
             <h2>A&nbsp;B&nbsp;O&nbsp;U&nbsp;T</h2>
             <p>Hi! I am a licensed psychotherapist transitioning to software engineer. I am currently enrolled in Georgia Tech's Full Stack Web Development bootcamp and I'm always looking for complex problems to solve.</p><br>
-            <p>I have graduate degrees in Clinical Psychology (USC) and Comparative Religion (UGA), with professional experience in the rehabilitation of incarcerated individuals and medication-assisted treatment for Opioid Use Disorder and other addictive disease. I presently work in mental health compliance and quality assurance as a Compliance Manager for a large mental health tech start-up.</p><br>
+            <p>I have graduate degrees in Clinical Psychology (USC) and Comparative Religion (UGA), with professional experience in general psychotherapy, addiction treatment, and healthcare management. I presently work in mental health compliance and quality assurance as a Compliance Manager for a large mental health tech start-up.</p><br>
             <p>Working in these fields has demonstrated the need for innovative assistive technologies in the health sector, and I am so excited to knit together my interests in healthcare and software engineering.</p><br>
         </section>
         <section id="projects" class="sectionbox">
@@ -105,25 +112,26 @@
         <section id="contact" class="sectionbox">
             <h2>C&nbsp;O&nbsp;N&nbsp;T&nbsp;A&nbsp;C&nbsp;T</h2>
             <div id="contactcontainer"> 
-                <form>
+                <form id="contact-form">
                         <p>
+                            <input type="hidden" name="contact_number">
                             <label for="name">Name:</label>
-                            <input class="text-input" id="name" type="text" placeholder="First Last"/>
+                            <input class="text-input" id="name" type="text" name="user_name" placeholder="First Last"/>
                         </p>
                         <p>
                             <label for="email">E-mail:</label>
-                            <input class="text-input" id="email" type="text" placeholder="me@example.com"/>
+                            <input class="text-input" id="email" type="text" name="user_email" placeholder="me@example.com"/>
                         </p>
                         <p>
                             <label for="message">Message:</label>
-                            <textarea id="message" placeholder="Type message here"></textarea>
+                            <textarea id="message" name="content" placeholder="Type message here"></textarea>
                         </p>
                         <p>
                             <input id="agreement" type="checkbox"/>
                             <label for="agreement">I agree to share my e-mail address.</label>
                         </p>
                         <p>
-                        <button>Submit</button>
+                            <input type="submit" value="Send">
                         </p>
                 </form>
                 <div id="icon-container">
@@ -150,5 +158,4 @@
         </nav>
     </footer>
 </body>
-
 </html>

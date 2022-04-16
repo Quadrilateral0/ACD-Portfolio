@@ -180,6 +180,13 @@ footer {
     padding-bottom: 5px;
 }
 
+#mostrecent2 {
+    position: relative;
+    width: 500px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
 @media screen and (max-width: 800px) {
     #mostrecent {
       width: 100%;
@@ -243,7 +250,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .link {
     max-width: 15px;

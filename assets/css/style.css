@@ -18,6 +18,14 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+
 h2 {
     font-family: 'Advent Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 20px;
@@ -96,18 +104,14 @@ footer {
     color: var(--moon)
 }
 
-#about {
-    font-size: 20px;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
-    text-align: justify;
-    color: whitesmoke;
-}
-
 .sectionbox {
     padding: 30px 200px;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 800px) {
     .sectionbox {
@@ -143,7 +147,7 @@ footer {
     display: inline-block;
   }
 
-#text-block1 {
+.text-block1 {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -152,8 +156,8 @@ footer {
     opacity: .8;
     text-align: center;
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
-    padding: 60px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding: 50px;
 }
 
 .text-block2 {
@@ -198,9 +202,16 @@ footer {
     text-align: justify;
 }
 
-#contactcontainer {
+.contactcontainer {
     display: flex;
     flex-direction: row;
+}
+
+.contactcontainer2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -225,6 +236,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+#icon-container2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 100px;
+}
+.link {
+    max-width: 15px;
 }
 
 .footer nav {
